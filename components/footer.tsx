@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-slate-950 text-slate-300 py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        {/* <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <h3 className="text-xl font-bold text-white mb-4">Advanced React Workshop</h3>
             <p className="mb-4 max-w-md">
@@ -69,16 +69,12 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div className="border-t border-slate-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; {new Date().getFullYear()} React Workshop. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="#" className="text-sm hover:text-white transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="text-sm hover:text-white transition-colors">
-              Terms of Service
+            <Link href="https://cbeabishek.github.io/Abishek-portfoilio/" className="text-sm hover:text-white transition-colors">
+              Desgin and Developed by Abishek
             </Link>
           </div>
         </div>

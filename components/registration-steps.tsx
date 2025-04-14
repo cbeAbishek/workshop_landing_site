@@ -19,7 +19,7 @@ export default function RegistrationSteps() {
             </div>
             <h3 className="text-xl font-semibold mb-3 mt-2">Fill Out the Form</h3>
             <p className="text-slate-300">
-              Complete our registration form with your details and experience level to help us tailor the workshop.
+              Complete our registration form with your details help us tailor the workshop.
             </p>
           </div>
 
@@ -27,9 +27,9 @@ export default function RegistrationSteps() {
             <div className="absolute -top-4 -left-4 h-10 w-10 flex items-center justify-center bg-rose-600 rounded-full text-lg font-bold">
               2
             </div>
-            <h3 className="text-xl font-semibold mb-3 mt-2">Secure Payment</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-2">Day 1 </h3>
             <p className="text-slate-300">
-              Process your payment through our secure payment gateway. Early bird and group discounts available.
+              Attend the first day of the workshop, where we will cover the basics and introduce advanced concepts.
             </p>
           </div>
 
@@ -37,9 +37,9 @@ export default function RegistrationSteps() {
             <div className="absolute -top-4 -left-4 h-10 w-10 flex items-center justify-center bg-rose-600 rounded-full text-lg font-bold">
               3
             </div>
-            <h3 className="text-xl font-semibold mb-3 mt-2">Receive Confirmation</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-2">Day 2</h3>
             <p className="text-slate-300">
-              Get your confirmation email with all workshop details, pre-work, and preparation instructions.
+              Join us for the second day, where we will dive deeper into advanced topics and hands-on projects.
             </p>
           </div>
         </div>
@@ -49,9 +49,11 @@ export default function RegistrationSteps() {
             Spots are limited to ensure a quality experience for all participants. Register early to avoid
             disappointment.
           </p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScK4NDRbykvp4OhlqqUmlTmUlhHRHTL2pD9v-ReoOGZvWAKtQ/viewform">
           <Button size="lg" className="bg-rose-600 hover:bg-rose-700">
             Register Now <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
+          </a>
         </div>
       </div>
     </section>

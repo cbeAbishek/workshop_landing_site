@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: 'Digital Transformation Workshop',
     images: [
       {
-        url: '/meta.jpg',
+        url: 'https://raw.githubusercontent.com/cbeAbishek/workshop_landing_site/refs/heads/main/public/meta.jpg',
         width: 1200,
         height: 630,
         alt: 'Workshop Thumbnail',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: 'Digital Transformation Workshop',
     description:
       'Join our 2-day workshop on Digital Transformation through Big Data & Cloud Computing.',
-    images: ['/meta.jpg'],
+    images: ['https://raw.githubusercontent.com/cbeAbishek/workshop_landing_site/refs/heads/main/public/meta.jpg'],
   },
 };
 

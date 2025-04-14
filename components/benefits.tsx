@@ -8,9 +8,7 @@ export default function Benefits() {
     "Project-based learning with real-world applications",
     "Comprehensive workshop materials and resources",
     "Certificate of completion",
-    "Post-workshop support and community access",
-    "Networking opportunities with peers and experts",
-    "Lunch and refreshments included both days",
+    "Post-workshop support and community access"
   ]
 
   return (
@@ -20,7 +18,7 @@ export default function Benefits() {
           <div>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6">Why Attend This Workshop?</h2>
             <p className="text-lg text-slate-600 mb-8">
-              Elevate your React skills and connect with a community of developers passionate about building better user
+              Elevate your skills and connect with a community of developers passionate about building better user
               experiences.
             </p>
 
@@ -36,7 +34,7 @@ export default function Benefits() {
 
           <div className="relative h-[400px] lg:h-[500px] rounded-xl overflow-hidden">
             <Image
-              src="/placeholder.svg?height=1000&width=800"
+              src="/thum.png"
               alt="Workshop in action"
               fill
               className="object-cover"
