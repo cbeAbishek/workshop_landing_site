@@ -17,7 +17,7 @@ export default function EventDetails() {
               <Calendar className="h-6 w-6" />
             </div>
             <h3 className="text-lg font-semibold mb-2">Date</h3>
-            <p className="text-slate-600 text-center">April 15-16, 2025</p>
+            <p className="text-slate-600 text-center">April 23-24, 2025</p>
           </div>
 
           <div className="flex flex-col items-center p-6 bg-slate-50 rounded-xl">
@@ -25,7 +25,7 @@ export default function EventDetails() {
               <Clock className="h-6 w-6" />
             </div>
             <h3 className="text-lg font-semibold mb-2">Time</h3>
-            <p className="text-slate-600 text-center">9:00 AM - 5:00 PM</p>
+            <p className="text-slate-600 text-center">will update later</p>
           </div>
 
           <div className="flex flex-col items-center p-6 bg-slate-50 rounded-xl">
@@ -34,9 +34,9 @@ export default function EventDetails() {
             </div>
             <h3 className="text-lg font-semibold mb-2">Location</h3>
             <p className="text-slate-600 text-center">
-              Tech Hub Conference Center
+              PPG technology campus
               <br />
-              123 Innovation Ave
+              Venum update later
             </p>
           </div>
 
@@ -46,9 +46,8 @@ export default function EventDetails() {
             </div>
             <h3 className="text-lg font-semibold mb-2">Participants</h3>
             <p className="text-slate-600 text-center">
-              Limited to 30 attendees
+              Limited attendees
               <br />
-              Intermediate to advanced
             </p>
           </div>
         </div>

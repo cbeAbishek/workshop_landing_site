@@ -10,7 +10,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Hero />
       <EventDetails />
-      <Agenda />
+      {/* <Agenda /> */}
       <Benefits />
       <RegistrationSteps />
       <Footer />
